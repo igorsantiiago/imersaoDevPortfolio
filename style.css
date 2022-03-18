@@ -209,15 +209,15 @@ footer {
     .container {
         margin: unset;
         padding-top: 0vh;
-        width: 90vw;
+        width: 85vw;
     }
 
     .profile {
-        width: 90vw;
+        width: 85vw;
     }
 
     .project {
-        width: 95vw;
+        width: 90vw;
     }
 
     .project img {
