@@ -1,23 +1,7 @@
 body {
     background: #121212 27.26%;
-
+    font-family: 'Roboto', sans-serif;
 }
-    /* background: linear-gradient(35deg, #F5F5F5, #000000);
-    background-size: 500% 500%;
-    animation: colors 10s ease infinite;
-}
-
-@keyframes colors {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-} */
 
 .container {
     max-width: 70vw;
@@ -211,4 +195,37 @@ footer {
 
   .light .dev {
     color: #121212;
+  }
+
+
+  @media (max-width: 500px) {
+
+    body {
+        margin: auto;
+        padding: 2vw;
+        width: 100vw;
+    }
+
+    .container {
+        margin: unset;
+        padding-top: 0vh;
+        width: 90vw;
+    }
+
+    .profile {
+        width: 90vw;
+    }
+
+    .project {
+        width: 95vw;
+    }
+
+    .project img {
+        max-width: 90vw;
+    }
+
+    .dev {
+        letter-spacing: 4px;
+    }
+
   }
