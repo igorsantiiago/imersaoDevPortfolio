@@ -19,4 +19,4 @@ Conteúdo Extra
 
 - Propriedades do Flexbox - https://www.alura.com.br/artigos/css-guia-do-flexbox
 
-Link do projeto hospedado no GitHub: 
+Link do projeto hospedado no GitHub: https://igorsantiiago.github.io/imersaoDevPortifolio/
