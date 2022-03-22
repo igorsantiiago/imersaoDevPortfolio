@@ -1,12 +1,15 @@
 body {
     background: #121212 27.26%;
     font-family: 'Roboto', sans-serif;
+    transition: 2s;
+
 }
 
 .container {
     max-width: 70vw;
     min-height: 70vh;
     margin: auto;
+    transition: 2s;
 }
 
 .header {
@@ -35,10 +38,6 @@ body {
     box-shadow: 0 4px 4px rgb(248, 78, 96);
 }
 
-.text-profile {
-    
-}
-
 .text-profile h1 {
     font-size: 2.5rem;
     font-weight: 700;
@@ -64,16 +63,6 @@ body {
 .theme {
     margin-top: 4vh;
 }
-
-
-.fa-sun, .fa-moon {
-    background: linear-gradient(to right, #f32170, #ffeb07);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    font-size: 30px;
-}
-
-
 
 main {
     margin: 5vh 0 0 0;
@@ -153,6 +142,8 @@ footer {
     opacity: .5;
 }
 
+
+
 .alura-logo {
     width: 50px;
     border-radius: 100px;
@@ -181,16 +172,33 @@ footer {
 }
 
 
-.light {
-    background-color: #F5F5F5;
-  }
-    
-  .light .container {
-    background: #F5F5F5;
+
+/*Tema*/
+
+:root {
+    --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/sol.png");
   }
 
-  .light .fa-brands {
-    color: #121212;
+  .light {
+    --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/lua.png");
+  }
+
+  .mudar-tema {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    background-image: var(--label-icon); 
+    background-repeat: no-repeat;
+    padding: 67px;
+    cursor: pointer; 
+  }
+  
+  #btn {
+    display: none;
+  }
+
+.light {
+    background-color: #F5F5F5;
   }
 
   .light .dev {
@@ -203,7 +211,7 @@ footer {
     body {
         margin: auto;
         padding-left: 4vw;
-        width: 100vw;
+        width: 95vw;
     }
 
     .container {
@@ -214,6 +222,7 @@ footer {
 
     .profile {
         width: 85vw;
+        margin-top: 12vh;
     }
 
     .project {
@@ -228,4 +237,10 @@ footer {
         letter-spacing: 4px;
     }
 
+    .mudar-tema {
+        top: 2vh;
+        left: 42vw;
+    }
+
   }
+

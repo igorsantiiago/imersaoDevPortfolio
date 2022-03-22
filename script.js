@@ -1,8 +1,3 @@
-
-function mudaModo(icon) {
-    document.body.classList.toggle('light')
-
-    icon.classList.toggle('fa-sun');
-}
-
-
+document.querySelector("#btn").addEventListener("click", () => {
+    document.body.classList.toggle("light")
+})
