@@ -201,6 +201,10 @@ footer {
     background-color: #F5F5F5;
   }
 
+  .light .fa-brands {
+    color: #121212;
+  }
+
   .light .dev {
     color: #121212;
   }
